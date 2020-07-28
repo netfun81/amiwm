@@ -1,0 +1,27 @@
+FastQuit off
+SizeBorder none
+ForceMove always
+Focus clicktotype
+IconPalette system
+DefaultIcon "def_tool.info"
+CustomIconsOnly off
+ShortLabelIcons on
+AutoRaise no
+TitlebarClock on
+TitleClockFormat "%c"
+Screen "Desktop One"
+Screen "Desktop Two"
+Screen "Desktop Three"
+Screen "Desktop Four"
+Module "Keyboard" "\
+	Mod4<z>:all:rotatescreens\
+	Mod4<h>:window|frame:iconify\
+	Mod4<Tab>:window|frame:back" 
+ToolItem Separator
+ToolItem "Firefox" "firefox" "W"
+ToolItem "Thunar" "thunar" "F"
+ToolItem "Dmenu" "dmenu_run" "R"
+ToolItem "Terminal" "kcterm" "T"
+ToolItem "Mixer" "pavucontrol" "A"
+ToolItem Separator
+ToolItem "Lock" "slock" "S"
