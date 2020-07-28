@@ -1,0 +1,2 @@
+# amiwm
+Amiwm-mod
