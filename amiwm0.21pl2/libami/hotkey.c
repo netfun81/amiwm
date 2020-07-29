@@ -33,12 +33,16 @@ static void lookup_meta()
       for(kp=keymap+(modmap->modifiermap[i*modmap->max_keypermod+j]-
 		     kbd_mincode)*kbd_maxsym, k=0; k<kbd_maxsym; k++)
 	switch(*kp++) {
-	case XK_Super_L:
-	case XK_Super_R:
+	case XK_Meta_L:
+	case XK_Meta_R:
 	  meta_mask|=1<<i;
 	  break;
 	case XK_Mode_switch:
 	  switch_mask|=1<<i;
+	  break;
+	case XK_Alt_L:
+	case XK_Alt_R:
+	  alt_mask|=1<<i;
 	  break;
 	}
   if(meta_mask == 0)
