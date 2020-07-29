@@ -11,8 +11,11 @@ Requires Bison, Flex, and X11-dev to compile. Install these from your distributi
 after downloading and uncompressing, open the amiwm* folder in a terminal and type:
 
   >./configure
+  
   >make
-  >sudo make install 
+  
+  >sudo make install
+ 
 
 copy the .amiwmrc file to your home folder and edit for your needs.
 
