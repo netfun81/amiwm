@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Amiwm
+Comment=amiwm window manager
+Exec=/usr/local/bin/amiwm
+Type=Application
