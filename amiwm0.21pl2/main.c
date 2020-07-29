@@ -277,16 +277,12 @@ void lookup_keysyms()
 	for(kp=kmap+(map->modifiermap[i*map->max_keypermod+j]-mincode)*maxsym,
 	      k=0; k<maxsym; k++)
 	  switch(*kp++) {
-	  case XK_Meta_L:
-	  case XK_Meta_R:
+	  case XK_Super_L:
+	  case XK_Super_R:
 	    meta_mask|=1<<i;
 	    break;
 	  case XK_Mode_switch:
 	    switch_mask|=1<<i;
-	    break;
-	  case XK_Alt_L:
-	  case XK_Alt_R:
-	    alt_mask|=1<<i;
 	    break;
 	  }
   XFree(kmap);
