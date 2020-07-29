@@ -1,7 +1,7 @@
 FastQuit off
 SizeBorder none
 ForceMove always
-Focus clicktotype
+Focus sloppy
 IconPalette system
 DefaultIcon "def_tool.info"
 CustomIconsOnly off
