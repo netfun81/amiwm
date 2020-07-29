@@ -1,8 +1,8 @@
 FastQuit off
 SizeBorder none
 ForceMove always
-Focus sloppy
-IconPalette system
+Focus followmouse
+IconPalette magicwb
 DefaultIcon "def_tool.info"
 CustomIconsOnly off
 ShortLabelIcons on
