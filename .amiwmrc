@@ -1,5 +1,5 @@
 FastQuit off
-SizeBorder none
+SizeBorder right
 ForceMove always
 Focus followmouse
 IconPalette magicwb
@@ -10,9 +10,13 @@ AutoRaise no
 TitlebarClock on
 TitleClockFormat "%c"
 Screen "Desktop One"
+Module "Background" "/home/kcair/Pictures/wallpapers/deskone.jpg"
 Screen "Desktop Two"
+Module "Background" "/home/kcair/Pictures/wallpapers/desktwo.jpg"
 Screen "Desktop Three"
+Module "Background" "/home/kcair/Pictures/wallpapers/deskthree.jpg"
 Screen "Desktop Four"
+Module "Background" "/home/kcair/Pictures/wallpapers/deskfour.jpg"
 Module "Keyboard" "\
 	Mod4<z>:all:rotatescreens\
 	Mod4<h>:window|frame:iconify\
