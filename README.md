@@ -9,7 +9,12 @@ Modified some code located in the Patches folder and included my .amiwmrc config
 
 Requires Bison, Flex, and X11-dev to compile. Install these from your distribution. 
 
-after downloading and uncompressing, open the amiwm* folder in a terminal and type:
+Download and uncompress the files.
+
+NOTE: If you want to use the Super key for menu hotkeys (rather than Alt) simply copy the
+contents of the Patches folder to the amiwm* folder replacing the existing files.
+
+To build, open the amiwm* folder in a terminal and type:
 
   >chmod +x configure
   >
@@ -19,8 +24,6 @@ after downloading and uncompressing, open the amiwm* folder in a terminal and ty
   >
   >sudo make install
  
-If you want to use the Super key for menu hotkeys (rather than Alt) simply copy the 
-contents of the Patches folder to the amiwm* folder replacing the existing files.
 
 copy the .amiwmrc file to your home folder and edit for your needs.
 
