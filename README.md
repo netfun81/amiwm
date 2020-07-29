@@ -10,6 +10,8 @@ Requires Bison, Flex, and X11-dev to compile. Install these from your distributi
 
 after downloading and uncompressing, open the amiwm* folder in a terminal and type:
 
+  >chmod +x configure
+
   >./configure
   
   >make
