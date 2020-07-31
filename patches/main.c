@@ -267,7 +267,7 @@ void lookup_keysyms()
   int i,j,k,maxsym,mincode,maxcode;
   XModifierKeymap *map=XGetModifierMapping(dpy);
   KeySym *kp, *kmap;
-  unsigned int alt_mask = 0;
+  unsigned int super_mask = 0;
   meta_mask=0, switch_mask=0;
   XDisplayKeycodes(dpy, &mincode, &maxcode);
   kmap=XGetKeyboardMapping(dpy, mincode, maxcode-mincode+1, &maxsym);
@@ -288,8 +288,8 @@ void lookup_keysyms()
   XFree(kmap);
   XFreeModifiermap(map);
   if(meta_mask == 0)
-    meta_mask = (alt_mask? alt_mask :
-		 (switch_mask? switch_mask : Mod1Mask));
+    meta_mask = (super_mask? super_mask :
+		 (switch_mask? switch_mask : Mod4Mask));
 }
 
 
