@@ -1,3 +1,5 @@
+ScreenFont "fixed"
+IconFont "fixed"
 FastQuit off
 SizeBorder right
 ForceMove always
@@ -10,13 +12,15 @@ AutoRaise no
 TitlebarClock on
 TitleClockFormat "%c"
 Screen "Desktop One"
-Module "Background" "/home/kcair/Pictures/wallpapers/deskone.jpg"
+Module "Background" "/home/kcair/Pictures/wallpapers/bg1.jpg"
 Screen "Desktop Two"
-Module "Background" "/home/kcair/Pictures/wallpapers/desktwo.jpg"
+Module "Background" "/home/kcair/Pictures/wallpapers/bg2.jpg"
 Screen "Desktop Three"
-Module "Background" "/home/kcair/Pictures/wallpapers/deskthree.jpg"
+Module "Background" "/home/kcair/Pictures/wallpapers/bg3.jpg"
 Screen "Desktop Four"
-Module "Background" "/home/kcair/Pictures/wallpapers/deskfour.jpg"
+Module "Background" "/home/kcair/Pictures/wallpapers/bg4.jpg"
+Screen "Desktop Five"
+Module "Background" "/home/kcair/Pictures/wallpapers/bg5.jpg"
 Module "Keyboard" "\
 	Mod4<z>:all:rotatescreens\
 	Mod4<h>:window|frame:iconify\
@@ -25,7 +29,7 @@ ToolItem Separator
 ToolItem "Firefox" "firefox" "W"
 ToolItem "Thunar" "thunar" "F"
 ToolItem "Dmenu" "dmenu_run" "R"
-ToolItem "Terminal" "kcterm" "T"
+ToolItem "Terminal" "xterm -r" "T"
 ToolItem "Mixer" "pavucontrol" "A"
 ToolItem Separator
 ToolItem "Lock" "slock" "S"
